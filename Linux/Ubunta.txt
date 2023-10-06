@@ -1,0 +1,12 @@
+mkdir -p A/B/D
+cd A/B/D
+nano
+cat dummy > ../dummy_2
+rm dummy
+mv ../dummy_2 ../dummy
+cp ../dummy .
+mv ../dummy ../..
+cd ../..
+touch "$(date '+%Y-%m-%d_%H-%M-%S')"
+nano 200~2023-1007_01-14-02
+ls -R
