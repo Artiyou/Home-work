@@ -1,0 +1,6 @@
+Select Albums
+From Table
+Where ArtistID Between 1 AND 10;
+
+Select Trek, Albums, Artist
+from Table
